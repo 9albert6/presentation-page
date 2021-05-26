@@ -1,6 +1,7 @@
 .hero-container {
-    background: url('../assets/entry-img2.png') center center/cover no-repeat;
-    height: 100vh;
+    /* background: url('../assets/entry-img2.png') center center/cover no-repeat; */
+    /* background-color: #242424; */
+    height: 93vh;
     width: 100%;
     display: flex;
     flex-direction: column;

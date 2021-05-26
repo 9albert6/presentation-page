@@ -5,8 +5,10 @@ import Video from './Video';
 function Home () {
     return (
         <>
-            <HeroSection id='home'/>
-            <Video id='video'/>
+        <div id='home'>
+            <HeroSection />
+        </div>
+            <Video />
         </>
     )
 }

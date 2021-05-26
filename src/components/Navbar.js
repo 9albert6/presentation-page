@@ -12,17 +12,17 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                    <a href={window.location.origin} className="navbar-logo">
                         JP <i className="fab fa-typo3"/>
-                    </Link>
+                    </a>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times': 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                                Home
-                            </Link>
+                        <a href={window.location.origin} className="nav-links">
+                            Home
+                        </a>
                         </li>
                         <li className='nav-item'>
                             <Link smooth to='#video' className='nav-links' onClick={closeMobileMenu}>
