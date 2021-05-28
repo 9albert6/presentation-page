@@ -1,25 +1,22 @@
 .video-responsive {
-  text-align: center;
-  float: none;
-  clear: both;
   position: relative;
+	padding-bottom: 45%; /* 16:9 */
+	height: 0;
   width: 80%;
-  padding-bottom: 56.25%;
-  /* padding-top: 25px; */
-  height: 0;
   margin: 0 auto;
   }
-  
-  .video-responsive iframe {
-    text-align: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80%;
 
-  }
+.video-responsive iframe {
+  position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  display: block;
+}
   
-  .video-title {
+.video-title {
     background:  #242222;
+    padding-top: 60px;
+    padding-bottom: 60px; 
   }
