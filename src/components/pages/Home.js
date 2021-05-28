@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import HeroSection from '../HeroSection';
+import HistoryComponent from '../HistoryComponent';
 import Video from './Video';
 function Home () {
     return (
@@ -9,6 +10,7 @@ function Home () {
             <HeroSection />
         </div>
             <Video />
+            <HistoryComponent />
         </>
     )
 }
