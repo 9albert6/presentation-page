@@ -15,7 +15,7 @@ function HeroSection() {
                 JAK PTAK
             </h1>
             <p>
-                <i>projekt licencjacki Agaty Małeckiej</i>
+                projekt licencjacki Agaty Małeckiej
             </p>
             <div className="hero-btns">
                 <Button className='btns' buttonStyle='btn--outline'

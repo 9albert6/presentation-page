@@ -35,8 +35,8 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link smooth to='#obsada' className='nav-links' onClick={closeMobileMenu}>
-                                Obsada
+                            <Link smooth to='#tworcy' className='nav-links' onClick={closeMobileMenu}>
+                                Twórcy
                             </Link>
                         </li>
                     </ul>
