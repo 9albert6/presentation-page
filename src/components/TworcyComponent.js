@@ -19,6 +19,8 @@ function TworcyComponent() {
                 <br/>
                 BACKSTAGE: MARTYNA WOLAŃSKA <br/>
                 <br/>
+                WIZUALIZACJE: MACIEK ROGAŁO <br/>
+                <br/>
                 Dziękujemy Gdańskiemu Teatrowi Szekspirowskiemu za udostępnienie przestrzeni
             </p>
         </div>
